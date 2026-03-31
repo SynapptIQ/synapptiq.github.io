@@ -1,36 +1,14 @@
 {
-  "title": "Synapptiq - Clinical AI Infrastructure Platform",
-  "description": "Infrastructure platform that deploys AI applications securely with native MCP and AI coding support for healthcare systems",
+  "title": "Synapptiq",
+  "description": "Something is emerging at the intersection of clinical data and machine intelligence.",
   "social_image": "/1200x630.jpg",
   "base_url": "https://synapptiq.github.io",
   "demo": {
-    "title": "See it in action",
-    "content": "<strong>Schedule a demonstration</strong> of how Synapptiq can transform your clinical AI deployment and streamline healthcare data intelligence.",
-    "cta": "Book a demo"
+    "title": "Request Early Access",
+    "content": "<strong>Join the waitlist.</strong> We're selectively onboarding partners who are rethinking how clinical data becomes intelligence.",
+    "cta": "Request access"
   },
   "theme_color": "#000080",
-  "nav": [
-    {
-      "title": "Solutions",
-      "link": "/solutions"
-    },
-    {
-      "title": "Technology",
-      "link": "/technology"
-    },
-    {
-      "title": "About",
-      "link": "/about"
-    },
-    {
-      "title": "Resources",
-      "link": "/resources"
-    },
-    {
-      "title": "Contact",
-      "link": "/contact"
-    }
-  ],
-
+  "nav": [],
   "social_links": []
 }

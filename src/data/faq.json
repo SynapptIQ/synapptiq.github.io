@@ -1,26 +1,18 @@
 [
   {
-    "question": "How does Synapptiq integrate with existing Epic and Cerner EHR systems?",
-    "answer": "Synapptiq's clinical AI infrastructure connects with Epic, Cerner, and ancillary systems through HL7 FHIR and proprietary integration layers. Our platform standardizes data to OMOP CDM format, reducing the need for custom ETL pipelines and enabling integration with existing clinical workflows."
+    "question": "What is Synapptiq building?",
+    "answer": "Infrastructure at the intersection of clinical data and AI. We're not ready to say more — but the teams working with us already know this changes everything."
   },
   {
-    "question": "What security and compliance certifications does Synapptiq maintain?",
-    "answer": "Synapptiq is HIPAA compliant, meeting stringent security requirements for healthcare data infrastructure. Our platform implements end-to-end encryption, role-based access controls, comprehensive audit logging, and undergoes regular third-party security assessments. We maintain BAA agreements with all clients."
+    "question": "Why stealth mode?",
+    "answer": "Because what we're building requires focus, not fanfare. We're heads-down with select health system partners, validating something that needs to be experienced, not explained."
   },
   {
-    "question": "Can clinical researchers deploy custom AI models without IT involvement?",
-    "answer": "Yes. Synapptiq provides a self-service platform where clinical researchers can deploy validated AI applications through our intuitive interface. The platform includes MCP (Model Context Protocol) support and Claude Code environments (Beta). Gemini integration is planned. IT teams retain governance controls and security oversight while researchers gain the agility to iterate on clinical AI projects without lengthy approval cycles."
+    "question": "Who is this for?",
+    "answer": "Health systems, clinical researchers, and data teams who believe AI infrastructure for healthcare needs to be purpose-built — not adapted from tools designed for other industries."
   },
   {
-    "question": "How does OMOP standardization benefit our AI deployment strategy?",
-    "answer": "OMOP (Observational Medical Outcomes Partnership) standardization ensures your clinical data is interoperable across different AI models and research initiatives. Synapptiq transforms data from Epic, Cerner, and other systems into OMOP CDM format, enabling you to deploy AI applications trained on multi-institutional datasets. This reduces vendor lock-in and enables collaboration with academic research networks while maintaining data quality and semantic consistency."
-  },
-  {
-    "question": "How does Synapptiq support datathons and collaborative research?",
-    "answer": "Synapptiq's platform has successfully powered datathons with 100+ researchers, providing secure research enclaves with MCP support and Claude Code (Beta). Gemini integration is planned. Our infrastructure enables multi-institutional collaboration while maintaining data governance and HIPAA compliance, allowing research teams to work together on clinical AI projects in a controlled environment."
-  },
-  {
-    "question": "How does Synapptiq handle model versioning and governance for clinical AI applications?",
-    "answer": "The platform includes comprehensive model lifecycle management with versioning, deployment tracking, and performance monitoring. Healthcare IT directors can establish approval workflows, set usage policies, and maintain complete audit trails for regulatory compliance."
+    "question": "How do I get involved?",
+    "answer": "Request early access. We're selectively onboarding partners who share our vision for what clinical intelligence can become. If what you've read here resonates, we should talk."
   }
 ]
