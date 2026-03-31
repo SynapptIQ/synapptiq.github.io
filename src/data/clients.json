@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Tier 1 Academic Medical Center - Southeast",
+    "logo": "/content-images/logo-01.svg"
+  },
+  {
+    "name": "University Hospital System - Northeast",
+    "logo": "/content-images/logo-02.svg"
+  },
+  {
+    "name": "Regional Health Network - Midwest",
+    "logo": "/content-images/logo-03.svg"
+  },
+  {
+    "name": "Integrated Delivery Network - West Coast",
+    "logo": "/content-images/logo-04.svg"
+  },
+  {
+    "name": "Community Hospital Alliance",
+    "logo": "/content-images/logo-05.svg"
+  },
+  {
+    "name": "Major Teaching Hospital - Mid-Atlantic",
+    "logo": "/content-images/logo-06.svg"
+  },
+  {
+    "name": "Multi-State Health System",
+    "logo": "/content-images/logo-07.svg"
+  },
+  {
+    "name": "Academic Medical Center - Southwest",
+    "logo": "/content-images/logo-08.svg"
+  },
+  {
+    "name": "Regional Cancer Treatment Network",
+    "logo": "/content-images/logo-09.svg"
+  },
+  {
+    "name": "Children's Hospital Consortium",
+    "logo": "/content-images/logo-10.svg"
+  },
+  {
+    "name": "Veterans Affairs Research Network",
+    "logo": "/content-images/logo-11.svg"
+  },
+  {
+    "name": "Metropolitan Health Authority",
+    "logo": "/content-images/logo-12.svg"
+  }
+]

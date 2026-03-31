@@ -1,0 +1,135 @@
+---
+
+const { settings, title, content } = Astro.props
+
+---
+
+<section class="bs-container py-6 flex flex-col items-center justify-center min-h-[80svh] relative">
+
+  <!-- Animated background orb -->
+  <div class="stealth-orb" aria-hidden="true">
+    <div class="stealth-orb__ring stealth-orb__ring--1"></div>
+    <div class="stealth-orb__ring stealth-orb__ring--2"></div>
+    <div class="stealth-orb__ring stealth-orb__ring--3"></div>
+    <div class="stealth-orb__core"></div>
+  </div>
+
+  <!-- Content -->
+  <div class="flex flex-col gap-6 max-w-3xl w-full text-center z-10 items-center">
+
+    <!-- Title -->
+    <h1 class="bs-h1 text-5xl md:text-7xl lg:text-8xl tracking-tight" set:html={ title } />
+
+    <!-- Content -->
+    <div class="bs-body-text xl:text-xl flex flex-col gap-4 text-bs-foreground-dark max-w-lg" set:html={ content } />
+
+    <!-- CTA -->
+    <button type="button" class="bs-btn self-center bs-mt-sm" onclick="demo.showModal()">
+      { settings.demo.cta }
+    </button>
+
+  </div>
+
+</section>
+
+<style>
+
+.stealth-orb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .stealth-orb {
+    width: 600px;
+    height: 600px;
+  }
+}
+
+.stealth-orb__core {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background: rgba(100, 140, 255, 0.8);
+  border-radius: 50%;
+  box-shadow:
+    0 0 20px rgba(100, 140, 255, 0.4),
+    0 0 60px rgba(100, 140, 255, 0.15);
+  animation: pulse-core 4s ease-in-out infinite;
+}
+
+.stealth-orb__ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 1px solid rgba(100, 140, 255, 0.08);
+}
+
+.stealth-orb__ring--1 {
+  width: 120px;
+  height: 120px;
+  animation: pulse-ring 4s ease-in-out infinite;
+}
+
+.stealth-orb__ring--2 {
+  width: 240px;
+  height: 240px;
+  animation: pulse-ring 4s ease-in-out infinite 0.5s;
+}
+
+.stealth-orb__ring--3 {
+  width: 400px;
+  height: 400px;
+  animation: pulse-ring 4s ease-in-out infinite 1s;
+}
+
+@media (min-width: 768px) {
+  .stealth-orb__ring--1 { width: 180px; height: 180px; }
+  .stealth-orb__ring--2 { width: 360px; height: 360px; }
+  .stealth-orb__ring--3 { width: 560px; height: 560px; }
+}
+
+@keyframes pulse-core {
+  0%, 100% {
+    opacity: 0.6;
+    box-shadow:
+      0 0 20px rgba(100, 140, 255, 0.3),
+      0 0 60px rgba(100, 140, 255, 0.1);
+  }
+  50% {
+    opacity: 1;
+    box-shadow:
+      0 0 30px rgba(100, 140, 255, 0.6),
+      0 0 80px rgba(100, 140, 255, 0.25);
+  }
+}
+
+@keyframes pulse-ring {
+  0%, 100% {
+    opacity: 0.3;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stealth-orb__core,
+  .stealth-orb__ring {
+    animation: none;
+  }
+}
+
+</style>

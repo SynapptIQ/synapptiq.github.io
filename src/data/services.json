@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Clinical Data, Standardized",
+    "content": "<strong>The raw material is already inside your systems.</strong> We're building the layer that structures it — so it's ready for what comes next.",
+    "cta": "Learn more",
+    "image": "/content-images/blackspike-wallpaper-01.avif",
+    "image_alt": "Abstract data visualization"
+  },
+  {
+    "title": "Beyond Dashboards",
+    "content": "<strong>Reports tell you what happened.</strong> We're building infrastructure that helps clinical teams work with their data in ways that weren't possible before.",
+    "cta": "Learn more",
+    "image": "/content-images/blackspike-wallpaper-02.avif",
+    "image_alt": "Abstract systems visualization"
+  },
+  {
+    "title": "Built for Healthcare",
+    "content": "<strong>Not adapted from other industries.</strong> Every layer designed for environments where the stakes are highest and the data is most sensitive.",
+    "cta": "Learn more",
+    "image": "/content-images/blackspike-wallpaper-03.avif",
+    "image_alt": "Abstract security visualization"
+  }
+]

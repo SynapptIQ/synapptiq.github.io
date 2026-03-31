@@ -1,0 +1,44 @@
+[
+  {
+    "title": "OMOP Foundation",
+    "tag": "Core Platform",
+    "content": "Essential OMOP CDM infrastructure and EHR integration",
+    "cta": "Request Quote",
+    "price": null,
+    "services": [
+      { "item": "Epic & Cerner integration" },
+      { "item": "OMOP CDM standardization" },
+      { "item": "HIPAA compliance" },
+      { "item": "Standard support & training" }
+    ]
+  },
+  {
+    "title": "Research & Datathons",
+    "tag": "Most Popular",
+    "content": "Secure AI sandboxes with proven datathon capabilities",
+    "cta": "Schedule Demo",
+    "price": null,
+    "services": [
+      { "item": "All OMOP Foundation features" },
+      { "item": "Secure research enclaves" },
+      { "item": "MCP + Claude Code (Beta)" },
+      { "item": "Datathon hosting (100+ researchers)" },
+      { "item": "Multi-institutional collaboration" }
+    ]
+  },
+  {
+    "title": "Enterprise Plus",
+    "tag": "Full Platform",
+    "content": "Complete platform with advanced governance and dedicated support",
+    "cta": "Contact Sales",
+    "price": null,
+    "services": [
+      { "item": "All Research & Datathon features" },
+      { "item": "Multi-cloud deployment (Azure/GCP)" },
+      { "item": "Advanced governance & audit controls" },
+      { "item": "Custom integration development" },
+      { "item": "Dedicated support & SLA" },
+      { "item": "Early access to new features" }
+    ]
+  }
+]
