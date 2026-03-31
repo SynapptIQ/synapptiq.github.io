@@ -1,11 +1,11 @@
 {
   "title": "Synapptiq",
-  "description": "Something is emerging at the intersection of clinical data and machine intelligence.",
+  "description": "Infrastructure for clinical data. Built differently.",
   "social_image": "/1200x630.jpg",
   "base_url": "https://synapptiq.github.io",
   "demo": {
     "title": "Request Early Access",
-    "content": "<strong>Join the waitlist.</strong> We're selectively onboarding partners who are rethinking how clinical data becomes intelligence.",
+    "content": "<strong>Join the waitlist.</strong> We're selectively onboarding partners who work with clinical data at scale.",
     "cta": "Request access"
   },
   "theme_color": "#000080",
